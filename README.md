@@ -11,22 +11,19 @@ Steps to Build the Application
 1. Set Up Environment
 Install Required Libraries:
 
-sh
-Copy code
+
 pip install boto3
 Configure AWS CLI (if not done already):
 
-sh
-Copy code
 aws configure
+
 2. Create a Python Script
 Create a directory for your project and a file named dynamodb_app.py inside it.
 
-sh
-Copy code
 mkdir dynamodb_project
 cd dynamodb_project
 touch dynamodb_app.py
+
 3. Write the Python Script
 Open dynamodb_app.py and add the following code:
 
@@ -116,20 +113,16 @@ if __name__ == "__main__":
     get_user('jdoe')
     delete_user('jdoe')
 4. Run the Script
-sh
-Copy code
+
 python dynamodb_app.py
 This script will create a DynamoDB table called Users, add a user, retrieve the user’s details, update the user, and finally delete the user.
 
 5. Push the Project to GitHub
 Initialize Git Repository:
 
-sh
-Copy code
 git init
 Add Files to the Repository:
 
-sh
-Copy code
+
 git add .
 Commit the Changes:
